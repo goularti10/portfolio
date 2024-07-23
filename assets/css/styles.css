@@ -1,0 +1,120 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-blue-2: #143a50;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.logo-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--bg-blue-2);
+}
+
+.nav-item a {
+    font-weight: 600;
+}
+
+.sobre {
+    min-height: 50vh;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.my-title, .sobre-mim-text {
+    color: var(--bg-blue-2);
+    font-weight: 700;
+}
+
+.my-subtitle {
+    font-weight: 600;
+    color: var(--bg-blue-2);
+}
+
+.paragrafo-1, .paragrafo-2 {
+    font-size: 14px;
+    color: var(--bg-blue-2);
+    font-weight: 600;
+}
+
+.h4-conhecimentos {
+    color: var(--bg-blue-2);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.icon {
+    color: #143a50;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #eaf2f6;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-conhecimentos {
+    padding: 20px;
+    transition: .5s;
+}
+
+.card-conhecimentos:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 1.3rem;
+}
+
+.h4-projetos {
+    color: var(--bg-blue-2);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.projetos-text {
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.projetos-subtitulo {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.card-projetos {
+    height: 200px;
+    background-color: #143a50;
+    transition: .5s;
+}
+
+.card-projetos:hover {
+    transform: scale(1.05);
+}
+
+.contato {
+    justify-content: center;
+    text-align: center;
+    min-height: 8vh;
+}
+
+.icon-footer {
+    color: #143a50;
+    font-size: 2rem;
+    transition: .5s;
+}
+
+.icon-footer:hover {
+    color: #000;
+    transform: scale(1.05);
+}
