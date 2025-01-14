@@ -10,6 +10,10 @@ body {
     background-color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo-text {
     font-size: 1.4rem;
     font-weight: 700;
@@ -92,14 +96,25 @@ body {
     font-size: 1.1rem;
 }
 
-.card-projetos {
+.card-projetos-fintech {
     height: 200px;
-    background-color: #143a50;
+    background-color: #6b5512;
     transition: .5s;
 }
 
-.card-projetos:hover {
-    transform: scale(1.05);
+.card-projetos-fintech:hover, .card-projetos-ifood:hover {
+transform: scale(1.05);
+}
+
+.card-projetos-ifood {
+    height: 200px;
+    background-color: #681921;
+    transition: .5s;
+}
+
+.card-projetos-breve {
+    height: 200px;
+    background-color: #143a50;
 }
 
 .contato {
